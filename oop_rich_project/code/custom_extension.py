@@ -12,7 +12,6 @@ class StudentDashboard(Table):
         # Set the project title and color
         title_text = Text(f"Project: {project_name}", style="bold magenta")
         
-        # Setup the main table
         super().__init__(title=title_text, show_lines=True, **kwargs)
         
         # Add columns to the table
