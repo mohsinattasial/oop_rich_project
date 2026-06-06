@@ -5,7 +5,7 @@ from rich.text import Text
 from rich.panel import Panel
 from rich.progress import Progress
 
-# Make a custom dashboard using Table
+
 class StudentDashboard(Table):
     
     def __init__(self, project_name, **kwargs):
