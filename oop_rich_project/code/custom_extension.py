@@ -9,7 +9,7 @@ from rich.progress import Progress
 class StudentDashboard(Table):
     
     def __init__(self, project_name, **kwargs):
-        # Set the project title and color
+       
         title_text = Text(f"Project: {project_name}", style="bold magenta")
         
         super().__init__(title=title_text, show_lines=True, **kwargs)
