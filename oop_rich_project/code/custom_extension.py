@@ -14,7 +14,7 @@ class StudentDashboard(Table):
         
         super().__init__(title=title_text, show_lines=True, **kwargs)
         
-        # Add columns to the table
+       
         self.add_column("Team Member", style="bold cyan")
         self.add_column("Assigned Task", style="green")
         self.add_column("Status", style="yellow")
